@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ev Temizliği - Temizlik Kurdu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-dark text-white">
+
+
+  <main-navbar></main-navbar>
+
+
+  <!-- Ana İçerik -->
+  <main class="container my-5">
+    <div class="row gy-4">
+
+      <!-- Sol Metin -->
+      <section class="col-lg-7">
+        <h1 class="display-5 text-warning mb-4">Ev Temizliği</h1>
+        <p class="fs-5">
+          Evinizin her köşesinde detaylı ve hijyenik temizlik hizmeti sunuyoruz. Profesyonel ekipmanlarımız ve deneyimli
+          personelimiz ile yaşam alanlarınızı ferah ve sağlıklı hale getiriyoruz.
+        </p>
+
+        <!-- Neden Biz -->
+        <div class="why-us my-5 p-4 bg-warning bg-opacity-10 rounded">
+          <h3 class="text-warning mb-3">Neden <strong>Temizlik Kurdu?</strong></h3>
+          <p class="text-white">
+            Çünkü biz sadece temizlik yapmıyoruz,yaşam alanlarınıza değer katıyoruz. Eğitimli personelimiz, yüksek
+            hijyen standartlarımız ve müşteri memnuniyeti odaklı hizmet anlayışımız ile fark yaratıyoruz.
+          </p>
+        </div>
+
+        <!-- Soru Cevap -->
+        <section class="faq">
+          <h3 class="text-warning mb-4">Sıkça Sorulan Sorular</h3>
+          <div class="accordion" id="faqAccordion">
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq1-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                  Ev temizliği kaç saat sürer?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Ortalama ev temizliği büyüklüğüne göre 2-4 saat sürer. Ancak detay ve ekstra hizmetler bu süreyi
+                  uzatabilir.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq2-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Hangi temizlik ürünleri kullanıyorsunuz?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Çevre dostu, insan sağlığına zarar vermeyen, sertifikalı ve kaliteli temizlik ürünleri kullanıyoruz.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq3-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Rezervasyon nasıl yapılır?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Web sitemiz üzerinden iletişim sayfasını kullanarak ya da telefon ile arayarak kolayca rezervasyon
+                  yaptırabilirsiniz.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </section>
+
+      <!-- Sağ Görsel -->
+      <aside class="col-lg-5 d-flex justify-content-center align-items-center">
+        <img src="resimler\ev_temizligi.jpg" alt="Ev Temizliği" class="img-fluid rounded shadow" />
+      </aside>
+
+      <section class="is-kapsami py-5 siyah text-white">
+        <div class="container">
+          <h3 class="section-title text-center mb-4">Ev Temizliği Kapsamında Neler Yapıyoruz?</h3>
+          <ul class="list-group list-group-flush text-start">
+            <li class="list-group-item bg-dark text-white">✔️ Tüm odaların detaylı süpürülmesi ve silinmesi</li>
+            <li class="list-group-item bg-dark text-white">✔️ Mutfak dolap içi ve dışı temizliği</li>
+            <li class="list-group-item bg-dark text-white">✔️ Banyo ve tuvaletlerde hijyenik temizlik</li>
+            <li class="list-group-item bg-dark text-white">✔️ Camların iç-dış silinmesi</li>
+            <li class="list-group-item bg-dark text-white">✔️ Toz alma ve detaylı yüzey temizliği</li>
+            <li class="list-group-item bg-dark text-white">✔️ Zemin cinsi uygun ürünle silme ve parlatma</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slogan-banner py-4">
+        <div class="container text-center">
+          <h2 class="slogan-text">
+            “Hijyen, konfor ve profesyonellik <strong>tek temizlikte</strong> birleşiyor!”
+          </h2>
+        </div>
+      </section>
+
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+  <whatsapp-button></whatsapp-button>
+
+  <main-footer></main-footer>
+</body>
+
+</html>

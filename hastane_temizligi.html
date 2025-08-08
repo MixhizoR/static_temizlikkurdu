@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hastane Temizliği - Temizlik Kurdu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white">
+
+  <main-navbar></main-navbar>
+
+  <!-- Ana İçerik -->
+  <main class="container my-5">
+    <div class="row gy-4">
+
+      <!-- Sol Metin -->
+      <section class="col-lg-7">
+        <h1 class="display-5 text-warning mb-4">Hastane Temizliği</h1>
+        <p class="fs-5">
+          Sağlık kuruluşlarının hijyen standartlarına uygun olarak, profesyonel hastane temizliği hizmeti sunuyoruz.
+        </p>
+
+        <!-- Neden Biz -->
+        <div class="why-us my-5 p-4 bg-warning bg-opacity-10 rounded">
+          <h3 class="text-warning mb-3">Neden <strong>Temizlik Kurdu?</strong></h3>
+          <p class="text-white">
+            Enfeksiyon riskini en aza indirmek için özel dezenfektanlar ve eğitimli personelimizle çalışıyor, steril
+            alanlar oluşturuyoruz.
+          </p>
+        </div>
+
+        <!-- Sıkça Sorulan Sorular -->
+        <section class="faq">
+          <h3 class="text-warning mb-4">Sıkça Sorulan Sorular</h3>
+          <div class="accordion" id="faqAccordion">
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq1-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                  Hastane temizliğinde hangi ürünleri kullanıyorsunuz?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Sağlık Bakanlığı onaylı dezenfektanlar ve antibakteriyel temizlik ürünleri kullanıyoruz.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq2-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Personeliniz sağlık eğitimi almış mı?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Evet, tüm çalışanlarımız hastane temizliği için özel eğitimlerden geçirilmiştir.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq3-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Yoğun bakım gibi özel alanları da temizliyor musunuz?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Evet, özel hijyen protokollerine uygun olarak yoğun bakım, ameliyathane gibi alanlarda da temizlik
+                  yapıyoruz.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </section>
+
+      <!-- Sağ Görsel -->
+      <aside class="col-lg-5 d-flex justify-content-center align-items-center">
+        <img src="resimler/bursa-hastane-temizligi.jpg" alt="Hastane Temizliği" class="img-fluid rounded shadow" />
+      </aside>
+
+      <!-- Hizmet Kapsamı -->
+      <section class="is-kapsami py-5 bg-black text-white">
+        <div class="container">
+          <h3 class="section-title text-center mb-4">Hastane Temizliğinde Neler Yapıyoruz?</h3>
+          <ul class="list-group list-group-flush text-start">
+            <li class="list-group-item bg-dark text-white">✔️ Tüm zeminlerin dezenfekte edilmesi</li>
+            <li class="list-group-item bg-dark text-white">✔️ Hasta odalarının hijyenik temizliği</li>
+            <li class="list-group-item bg-dark text-white">✔️ Ameliyathane ve yoğun bakım ünitelerinde özel temizlik
+            </li>
+            <li class="list-group-item bg-dark text-white">✔️ Tuvalet ve lavaboların günlük sterilizasyonu</li>
+            <li class="list-group-item bg-dark text-white">✔️ Temas yüzeylerinin UV ve kimyasal yöntemlerle temizliği
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slogan -->
+      <section class="slogan-banner py-4 bg-warning text-dark">
+        <div class="container text-center">
+          <h2 class="slogan-text">
+            “Temizlik Kurdu ile sağlık alanlarında tam hijyen, sıfır risk.”
+          </h2>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  
+  <whatsapp-button></whatsapp-button>
+
+  <main-footer></main-footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

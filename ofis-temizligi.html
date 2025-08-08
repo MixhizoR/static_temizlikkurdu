@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ofis Temizliği - Temizlik Kurdu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-dark text-white">
+
+  <main-navbar></main-navbar>
+
+  <!-- Ana İçerik -->
+  <main class="container my-5">
+    <div class="row gy-4">
+
+      <!-- Sol Metin -->
+      <section class="col-lg-7">
+        <h1 class="display-5 text-warning mb-4">Ofis Temizliği</h1>
+        <p class="fs-5">
+          Ofisinizin hijyenik, düzenli ve profesyonel bir görünüme kavuşması için kapsamlı temizlik hizmeti sunuyoruz.
+          Çalışan verimliliğini artıran ve müşteri algısını güçlendiren sonuçlar için buradayız.
+        </p>
+
+        <!-- Neden Biz -->
+        <div class="why-us my-5 p-4 bg-warning bg-opacity-10 rounded">
+          <h3 class="text-warning mb-3">Neden <strong>Temizlik Kurdu?</strong></h3>
+          <p class="text-white">
+            Ofisinizde yalnızca temizlik değil, konfor ve prestij sunuyoruz. Profesyonel ekip, disiplinli süreç yönetimi
+            ve müşteri odaklı yaklaşımımızla işletmenize değer katıyoruz.
+          </p>
+        </div>
+
+        <!-- Soru Cevap -->
+        <section class="faq">
+          <h3 class="text-warning mb-4">Sıkça Sorulan Sorular</h3>
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">
+                  Temizlik sırasında evde bulunmam gerekiyor mu?
+                </button>
+              </h2>
+              <div id="a3" class="accordion-collapse collapse" data-bs-parent="#sssAccordion">
+                <div class="accordion-body">Hayır, dilerseniz anahtar teslim çalışabiliriz. Ekibimiz iş bitiminde size
+                  bilgi verir.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4">
+                  Evcil hayvan varsa sorun olur mu?
+                </button>
+              </h2>
+              <div id="a4" class="accordion-collapse collapse" data-bs-parent="#sssAccordion">
+                <div class="accordion-body">Evcil hayvanlar bizim için sorun değildir. Ekibimiz bu konuda deneyimlidir.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="q5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5">
+                  Haftalık veya aylık düzenli temizlik hizmeti alabilir miyim?
+                </button>
+              </h2>
+              <div id="a5" class="accordion-collapse collapse" data-bs-parent="#sssAccordion">
+                <div class="accordion-body">Evet, düzenli periyotlarla haftalık veya aylık ev temizliği hizmeti
+                  veriyoruz.</div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq1-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                  Ofis temizliği ne sıklıkla yapılmalı?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Genellikle haftalık olarak önerilir. Ancak çalışan sayısı ve ofis yoğunluğuna göre günlük temizlik de
+                  planlanabilir.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-secondary bg-opacity-10 mb-2 rounded">
+              <h2 class="accordion-header" id="faq2-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Ofiste temizlik sırasında çalışmaları etkiler mi?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-header"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-light">
+                  Ekibimiz sessiz ve dikkatli çalışarak ofis içi işleyişi aksatmadan temizlik yapar.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </section>
+
+      <!-- Sağ Görsel -->
+      <aside class="col-lg-5 d-flex justify-content-center align-items-center">
+        <img src="resimler/ofis-temizligi.jpg" alt="Ofis Temizliği" class="img-fluid rounded shadow" />
+      </aside>
+
+      <!-- İş Kapsamı -->
+      <section class="is-kapsami py-5 siyah text-white">
+        <div class="container">
+          <h3 class="section-title text-center mb-4">Ofis Temizliği Kapsamında Neler Yapıyoruz?</h3>
+          <ul class="list-group list-group-flush text-start">
+            <li class="list-group-item bg-dark text-white">✔️ Masa, sandalye ve ofis mobilyalarının silinmesi</li>
+            <li class="list-group-item bg-dark text-white">✔️ Zemin temizliği ve uygun ürünle dezenfeksiyon</li>
+            <li class="list-group-item bg-dark text-white">✔️ Cam ve kapıların iç-dış temizliği</li>
+            <li class="list-group-item bg-dark text-white">✔️ Tuvalet ve lavaboların hijyenik temizliği</li>
+            <li class="list-group-item bg-dark text-white">✔️ Ortak kullanım alanlarının sterilizasyonu</li>
+            <li class="list-group-item bg-dark text-white">✔️ Çöp kutularının boşaltılması ve temizliği</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slogan -->
+      <section class="slogan-banner py-4">
+        <div class="container text-center">
+          <h2 class="slogan-text">
+            “Temiz ofis, mutlu ekip, güçlü imaj!”
+          </h2>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  
+  <whatsapp-button></whatsapp-button>
+
+  <main-footer></main-footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
