@@ -119,9 +119,18 @@ class Footer extends HTMLElement {
 
       <hr class="border-warning" />
 
-      <div class="text-center small">
-        &copy; 2025 Temizlik Kurdu. Tüm hakları saklıdır.
-      </div>
+      <div class="text-center text-white">
+          <small
+            >Copyright ©2025 All rights reserved | Made by
+            <a href="https://www.linkedin.com/in/oguz-selman-cetin/"
+              >Oğuz Selman Çetin</a
+            >
+            and
+            <a href="https://www.linkedin.com/in/osman-t%C3%BCzen-571b7133a/"
+              >Osman Tüzen</a
+            ></small
+          >
+        </div>
     </div>
   </footer>
       `;
