@@ -1,126 +1,115 @@
-
 /*üst navbar kodları*/
 /* Navbar'da logo ve ismi sola yasla */
 .navbar .navbar-brand {
     margin-right: auto;
     display: flex;
     align-items: center;
-  }
+}
   
-  /* Menü tam ortada hizalansın */
-  .navbar-nav {
+/* Menü tam ortada hizalansın */
+.navbar-nav {
     margin: 0 auto;
-  }
+}
   
-  /* Menü boşlukları biraz daha belirgin */
-  .navbar-nav .nav-link {
+/* Menü boşlukları biraz daha belirgin */
+.navbar-nav .nav-link {
     padding: 0.5rem 1.2rem;
-  }
-  
-  /* Sosyal ikonlar zaten sağda (ms-auto), boyut ayarlı */
-  
-
+}
 
 /* Navbar yüksekliği ve renk */
 .navbar {
     min-height: 90px;
-  }
+}
   
-  /* Logo ayarları */
-  .navbar-brand img {
+/* Logo ayarları */
+.navbar-brand img {
     border-radius: 50%;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
     transition: transform 0.3s ease;
     width: 80px;
     height: 80px;
-  }
+}
   
-  .navbar-brand img:hover {
+.navbar-brand img:hover {
     transform: scale(1.1);
-  }
+}
   
-  .navbar-brand span {
+.navbar-brand span {
     font-size: 1.6rem;
     font-weight: 700;
     color: #ffc107;
     margin-left: 10px;
-  }
+}
   
-  /* Menü linkleri */
-  .navbar-nav .nav-link {
+/* Menü linkleri */
+.navbar-nav .nav-link {
     font-size: 1.1rem;
     font-weight: 600;
-  }
+}
   
-  /* Dropdown menü */
-  .dropdown-menu-dark {
+/* Dropdown menü */
+.dropdown-menu-dark {
     background-color: #212529;
-  }
+}
   
-  /* Hover renkleri */
-  .navbar-nav .nav-link:hover,
-  .dropdown-menu a:hover {
+/* Hover renkleri */
+.navbar-nav .nav-link:hover,
+.dropdown-menu a:hover {
     color: #ffc107 !important;
-  }
+}
   
-  /* Sosyal ikonlar */
-  .social-icons a {
+/* Sosyal ikonlar */
+.social-icons a {
     color: #ffc107;
+    margin-left: 15px; 
     transition: color 0.3s ease, transform 0.3s ease;
-  }
-  .social-icons a i {
-    font-size: 1.8rem; /* Varsayılan 1.3rem veya fa-lg yerine daha büyük */
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  .social-icons a {
-    color: #ffc107;
-    margin-left: 15px; /* Aralarına boşluk */
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
+}
 
-  .social-icons a:hover {
+.social-icons a i {
+    font-size: 1.8rem; 
+}
+
+.social-icons a:hover {
     color: #fff;
     transform: scale(1.2);
-  }
-  /*üst navbar kodları*/
+}
+/*üst navbar kodları bitiş*/
 
 
-  /* Promosyon bannerı */
-  .promo-banner {
+/* Promosyon bannerı */
+.promo-banner {
     background-color: #f5c700; /* sarı ton */
     color: #000;
     border-bottom: 5px solid #000;
-  }
+}
   
-  .promo-logo {
+.promo-logo {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border: 5px solid #000;
     transition: transform 0.4s ease;
-  }
+}
   
-  .promo-logo:hover {
+.promo-logo:hover {
     transform: scale(1.1) rotate(-2deg);
-  }
+}
   
-  .promo-title {
+.promo-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 15px;
     color: #000;
-  }
-  
+}
 
-
-  .promo-text {
+.promo-text {
     font-size: 1.2rem;
     max-width: 700px;
-  }
+}
 
-  /* Sağdaki logoyu yazıya yaklaştırmak için */
+/* Sağdaki logoyu yazıya yaklaştırmak için */
 .promo-logo-right {
-    margin-left: -370px; /* Daha fazla yaklaştırmak istersen değeri büyüt (-30 gibi) */
+    margin-left: -370px; 
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -128,448 +117,256 @@
     transition: transform 0.4s ease;
     object-fit: cover;
     border: 5px solid #000;
-  }
+}
   
-  .promo-logo-right:hover {
+.promo-logo-right:hover {
     transform: scale(1.1) rotate(-2deg);
-  }
-  /* Promosyon bannerı */
+}
+/* Promosyon bannerı bitiş */
 
-  /*hizmetlerimiz bölümü*/
-
-  .service-card {
-    background-color: #111; /* Kart arka planı siyah-tonu */
-    border: 2px solid #ffc107; /* Sarı çerçeve */
+/*hizmetlerimiz bölümü*/
+.service-card {
+    background-color: #111; 
+    border: 2px solid #ffc107; 
     border-radius: 15px;
     padding: 20px;
     transition: all 0.3s ease;
     color: #ffc107;
-  }
+}
   
-  .service-card:hover {
+.service-card:hover {
     background-color: #1a1a1a;
     transform: translateY(-5px);
     box-shadow: 0 0 15px rgba(255, 193, 7, 0.4);
-  }
+}
   
-  .service-card .card-title {
+.service-card .card-title {
     font-weight: bold;
     font-size: 1.2rem;
     color: #ffc107;
-  }
+}
   
-  .service-card .card-text {
+.service-card .card-text {
     color: #f5f5f5;
     font-size: 0.95rem;
-  }
+}
   
-  .service-card .btn-warning {
+.service-card .btn-warning {
     border-radius: 20px;
     font-weight: 600;
     padding: 5px 15px;
-  }
-  /*hizmetlerimiz bölümü*/
+}
+/*hizmetlerimiz bölümü bitiş*/
 
-  /* ev temizliği bölümü*/
-  
-  /* Genel Body */
+/* ev temizliği bölümü*/
 body.bg-dark {
-  background-color: #121212 !important;
-  color: #eee;
+    background-color: #121212 !important;
+    color: #eee;
 }
 
-/* Neden Biz Kısmı */
 .why-us {
-  background-color: #fff;
-  color: #000; /* <-- bu satır var ama emin ol tekrar tanımlandı */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  color: #000;
-
+    background-color: #fff;
+    color: #000; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-/* Accordion (Soru Cevap) */
 .accordion-button {
-  background-color: #000 !important;
-  color: #ffc107 !important;
-  font-weight: 600;
+    background-color: #000 !important;
+    color: #ffc107 !important;
+    font-weight: 600;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #ffc107 !important;
-  color: #000 !important;
+    background-color: #ffc107 !important;
+    color: #000 !important;
 }
 
 .accordion-body {
-  background-color: #222;
-  color: #eee;
+    background-color: #222;
+    color: #eee;
 }
 
 .slogan-banner {
-  background-color: #ffc107; /* Sarı */
-  color: #000; /* Siyah yazı */
+    background-color: #ffc107; 
+    color: #000; 
 }
 
 .slogan-text {
-  font-size: 1.8rem;
-  font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .is-kapsami {
-  background-color: #000; /* Siyah arka plan */
+    background-color: #000; 
 }
 
 .section-title {
-  font-size: 2rem;
-  color: #ffc107;
+    font-size: 2rem;
+    color: #ffc107;
 }
 
 .list-group-item {
-  border: none;
-  font-size: 1.1rem;
+    border: none;
+    font-size: 1.1rem;
 }
-/* ev temizliği bölümü*/
+/* ev temizliği bölümü bitiş*/
 
-/*hakkkımızda bölümü*/
+/*hakkımızda bölümü*/
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1, h2, h3, h5 {
-  font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .value-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .value-card:hover {
-  transform: translateY(-5px);
-  background-color: rgba(255, 255, 0, 0.05);
+    transform: translateY(-5px);
+    background-color: rgba(255, 193, 7, 0.1); /* Kayseri Hijyen Sarısı Dokunuşu */
 }
+/*hakkımızda bölümü bitiş*/
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/*hakkkımızda bölümü*/
-
- 
-
-
-/*musteri*/
 /* MÜŞTERİ GÖRÜŞLERİ TASARIMI */
 .yorumlar-section {
-  background-color: #111;
-}
-
-.section-title {
-  color: #ffc107;
-  font-size: 2.5rem;
-  font-weight: bold;
-  position: relative;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 4px;
-  background-color: #ffc107;
-  margin: 10px auto 0;
-  border-radius: 2px;
+    background-color: #111;
 }
 
 .yorum-karti {
-  background-color: #1a1a1a;
-  border: 2px solid #ffc107;
-  border-radius: 15px;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 12px rgba(255, 193, 7, 0.15);
+    background-color: #1a1a1a;
+    border: 2px solid #ffc107;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(255, 193, 7, 0.15);
 }
 
 .yorum-karti:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
 }
+/* müşteri görüşleri bitiş */
 
-.yorum-icerik p {
-  font-size: 1rem;
-  color: #ddd;
-  line-height: 1.6;
-}
-
-.yorum-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 15px;
-}
-
-.yorum-avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ffc107;
-}
-
-
-
-/*galeri*/
-/* GALERİ BÖLÜMÜ */
 /* GALERİ BÖLÜMÜ */
 .galeri-section {
-  background-color: #1a1a1a;
-}
-
-.section-title {
-  color: #ffc107;
-  font-size: 2.5rem;
-  font-weight: bold;
-  position: relative;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 4px;
-  background-color: #ffc107;
-  margin: 10px auto 0;
-  border-radius: 2px;
+    background-color: #1a1a1a;
 }
 
 .galeri-box {
-  position: relative;
-  overflow: hidden;
-  border: 2px solid #ffc107;
-  border-radius: 12px;
-  background-color: #111;
-  padding: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 420px; /* Sabit yükseklik kutu için */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ffc107;
+    border-radius: 12px;
+    background-color: #111;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 420px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .galeri-box:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
 }
 
 .galeri-label {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  background-color: #ffc107;
-  color: #000;
-  font-weight: bold;
-  padding: 4px 10px;
-  font-size: 0.85rem;
-  border-radius: 5px;
-  z-index: 2;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    z-index: 2;
 }
+/* galeri bölümü bitiş */
 
-.galeri-box img.galeri-image {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-
-/*iletişim*/
-/* İLETİŞİM SAYFASI GELİŞTİRME */
-
+/* İLETİŞİM SAYFASI */
 .iletisim-section {
-  background-color: #111;
-  min-height: 100vh; /* Tam ekran yüksekliği */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.section-title {
-  color: #ffc107;
-  font-size: 2.8rem;
-  font-weight: 700;
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 4px;
-  background-color: #ffc107;
-  margin: 10px auto 0;
-  border-radius: 2px;
+    background-color: #111;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .iletisim-kutu {
-  background-color: #1a1a1a;
-  border: 3px solid #ffc107;
-  box-shadow: 0 0 20px 5px rgba(255, 193, 7, 0.6);
-  max-width: 600px;
-  margin: auto;
-  padding: 30px 25px;
+    background-color: #1a1a1a;
+    border: 3px solid #ffc107;
+    box-shadow: 0 0 20px 5px rgba(255, 193, 7, 0.6); /* Kayseri Hijyen Temizlik Vurgusu */
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 25px;
 }
+/* iletişim sayfası bitiş */
 
-.iletisim-bilgi h4 {
-  font-weight: 700;
-}
-
-.iletisim-bilgi p {
-  font-size: 1.1rem;
-  color: #ddd;
-  margin-bottom: 0.5rem;
-}
-
-.map-responsive {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
-  border-radius: 12px;
-  border: 2px solid #ffc107;
-  margin-top: 20px;
-}
-
-.map-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 12px;
-}
-
-
-/*FOOTER*/
-/* Footer Stilleri */
-.footer {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.footer-logo {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
+/* FOOTER */
 .footer-link {
-  color: #ffc107;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.social-icons a {
-  font-size: 1.2rem;
-  color: #ffc107;
-  transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-  color: #fff;
+    color: #fff;
+    text-decoration: underline;
 }
 
 hr.border-warning {
-  border-top: 1px solid #ffc107;
-  opacity: 0.3;
+    border-top: 1px solid #ffc107;
+    opacity: 0.3;
 }
+/* footer bitiş */
 
-@media (max-width: 576px) {
-  .footer .col-md-4,
-  .footer .col-md-3,
-  .footer .col-md-5 {
-    text-align: center;
-  }
-  .social-icons {
-    justify-content: center;
-  }
-}
-
-
-/*TELEFON İKONU*/
+/* SABİT İLETİŞİM BUTONLARI */
 .fixed-contact-buttons {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  z-index: 1050; /* Bootstrap modal vb üstüne çıksın */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1050;
 }
 
 .contact-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  color: white;
-  font-size: 24px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
 }
 
 .whatsapp-btn {
-  background-color: #25D366; /* WhatsApp yeşili */
-}
-
-.whatsapp-btn:hover {
-  background-color: #1DA851;
-  transform: scale(1.1);
+    background-color: #25D366; 
 }
 
 .phone-btn {
-  background-color: #FFC107; /* Sarı */
-  color: #000;
+    background-color: #FFC107; 
+    color: #000;
 }
+/* sabit iletişim butonları bitiş */
 
-.phone-btn:hover {
-  background-color: #e0a800;
-  transform: scale(1.1);
-}
-
-/* Mobilde ikonları biraz küçült */
-@media (max-width: 576px) {
-  .contact-btn {
-    width: 44px;
-    height: 44px;
-    font-size: 20px;
-  }
-}
-
-
-
-/*REFERANSLAR*/
-.card img {
-  height: 200px;
-  object-fit: cover;
-}
-
+/* REFERANSLAR */
 .card {
-  border-width: 2px;
-  transition: transform 0.3s ease;
+    border-width: 2px;
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
