@@ -5,12 +5,12 @@
     display: flex;
     align-items: center;
 }
-  
+
 /* Menü tam ortada hizalansın */
 .navbar-nav {
     margin: 0 auto;
 }
-  
+
 /* Menü boşlukları biraz daha belirgin */
 .navbar-nav .nav-link {
     padding: 0.5rem 1.2rem;
@@ -20,7 +20,7 @@
 .navbar {
     min-height: 90px;
 }
-  
+
 /* Logo ayarları */
 .navbar-brand img {
     border-radius: 50%;
@@ -29,60 +29,62 @@
     width: 80px;
     height: 80px;
 }
-  
+
 .navbar-brand img:hover {
     transform: scale(1.1);
 }
-  
+
 .navbar-brand span {
     font-size: 1.6rem;
     font-weight: 700;
     color: #ffc107;
     margin-left: 10px;
 }
-  
+
 /* Menü linkleri */
 .navbar-nav .nav-link {
     font-size: 1.1rem;
     font-weight: 600;
 }
-  
+
 /* Dropdown menü */
 .dropdown-menu-dark {
     background-color: #212529;
 }
-  
+
 /* Hover renkleri */
 .navbar-nav .nav-link:hover,
 .dropdown-menu a:hover {
     color: #ffc107 !important;
 }
-  
+
 /* Sosyal ikonlar */
 .social-icons a {
     color: #ffc107;
-    margin-left: 15px; 
+    margin-left: 15px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-icons a i {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
 }
 
 .social-icons a:hover {
     color: #fff;
     transform: scale(1.2);
 }
+
 /*üst navbar kodları bitiş*/
 
 
 /* Promosyon bannerı */
 .promo-banner {
-    background-color: #f5c700; /* sarı ton */
+    background-color: #f5c700;
+    /* sarı ton */
     color: #000;
     border-bottom: 5px solid #000;
 }
-  
+
 .promo-logo {
     width: 150px;
     height: 150px;
@@ -90,11 +92,11 @@
     border: 5px solid #000;
     transition: transform 0.4s ease;
 }
-  
+
 .promo-logo:hover {
     transform: scale(1.1) rotate(-2deg);
 }
-  
+
 .promo-title {
     font-size: 2rem;
     font-weight: bold;
@@ -109,7 +111,7 @@
 
 /* Sağdaki logoyu yazıya yaklaştırmak için */
 .promo-logo-right {
-    margin-left: -370px; 
+    margin-left: -370px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -118,44 +120,46 @@
     object-fit: cover;
     border: 5px solid #000;
 }
-  
+
 .promo-logo-right:hover {
     transform: scale(1.1) rotate(-2deg);
 }
+
 /* Promosyon bannerı bitiş */
 
 /*hizmetlerimiz bölümü*/
 .service-card {
-    background-color: #111; 
-    border: 2px solid #ffc107; 
+    background-color: #111;
+    border: 2px solid #ffc107;
     border-radius: 15px;
     padding: 20px;
     transition: all 0.3s ease;
     color: #ffc107;
 }
-  
+
 .service-card:hover {
     background-color: #1a1a1a;
     transform: translateY(-5px);
     box-shadow: 0 0 15px rgba(255, 193, 7, 0.4);
 }
-  
+
 .service-card .card-title {
     font-weight: bold;
     font-size: 1.2rem;
     color: #ffc107;
 }
-  
+
 .service-card .card-text {
     color: #f5f5f5;
     font-size: 0.95rem;
 }
-  
+
 .service-card .btn-warning {
     border-radius: 20px;
     font-weight: 600;
     padding: 5px 15px;
 }
+
 /*hizmetlerimiz bölümü bitiş*/
 
 /* ev temizliği bölümü*/
@@ -166,10 +170,10 @@ body.bg-dark {
 
 .why-us {
     background-color: #fff;
-    color: #000; 
+    color: #000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .accordion-button {
@@ -189,8 +193,8 @@ body.bg-dark {
 }
 
 .slogan-banner {
-    background-color: #ffc107; 
-    color: #000; 
+    background-color: #ffc107;
+    color: #000;
 }
 
 .slogan-text {
@@ -199,7 +203,7 @@ body.bg-dark {
 }
 
 .is-kapsami {
-    background-color: #000; 
+    background-color: #000;
 }
 
 .section-title {
@@ -211,6 +215,7 @@ body.bg-dark {
     border: none;
     font-size: 1.1rem;
 }
+
 /* ev temizliği bölümü bitiş*/
 
 /*hakkımızda bölümü*/
@@ -228,8 +233,10 @@ body {
 
 .value-card:hover {
     transform: translateY(-5px);
-    background-color: rgba(255, 193, 7, 0.1); /* Kayseri Hijyen Sarısı Dokunuşu */
+    background-color: rgba(255, 193, 7, 0.1);
+    /* Detay Temizlik Sarısı Dokunuşu */
 }
+
 /*hakkımızda bölümü bitiş*/
 
 /* MÜŞTERİ GÖRÜŞLERİ TASARIMI */
@@ -249,6 +256,7 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
 }
+
 /* müşteri görüşleri bitiş */
 
 /* GALERİ BÖLÜMÜ */
@@ -264,7 +272,7 @@ body {
     background-color: #111;
     padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 420px; 
+    height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,12 +295,13 @@ body {
     border-radius: 5px;
     z-index: 2;
 }
+
 /* galeri bölümü bitiş */
 
 /* İLETİŞİM SAYFASI */
 .iletisim-section {
     background-color: #111;
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,11 +310,13 @@ body {
 .iletisim-kutu {
     background-color: #1a1a1a;
     border: 3px solid #ffc107;
-    box-shadow: 0 0 20px 5px rgba(255, 193, 7, 0.6); /* Kayseri Hijyen Temizlik Vurgusu */
+    box-shadow: 0 0 20px 5px rgba(255, 193, 7, 0.6);
+    /* Detay Temizlik Temizlik Vurgusu */
     max-width: 600px;
     margin: auto;
     padding: 30px 25px;
 }
+
 /* iletişim sayfası bitiş */
 
 /* FOOTER */
@@ -324,6 +335,7 @@ hr.border-warning {
     border-top: 1px solid #ffc107;
     opacity: 0.3;
 }
+
 /* footer bitiş */
 
 /* SABİT İLETİŞİM BUTONLARI */
@@ -346,19 +358,20 @@ hr.border-warning {
     border-radius: 50%;
     color: white;
     font-size: 24px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
 }
 
 .whatsapp-btn {
-    background-color: #25D366; 
+    background-color: #25D366;
 }
 
 .phone-btn {
-    background-color: #FFC107; 
+    background-color: #FFC107;
     color: #000;
 }
+
 /* sabit iletişim butonları bitiş */
 
 /* REFERANSLAR */
